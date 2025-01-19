@@ -1,0 +1,42 @@
+.join {
+    width: 1200px;
+    height: 414px;
+    background-color: $color-text;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; // Центрирует блок по горизонтали
+    margin-bottom: 80px;
+  }
+  
+  .join-content {
+    text-align: center;
+  }
+  
+  .join-title {
+    font-size: 50px;
+    color: $color-bgmain;
+    margin-bottom: 10px; // Расстояние между заголовком и подзаголовком
+    font-family: $font-add;
+  }
+  
+  .join-subtitle {
+    font-size: 22px;
+    color: $color-bgmain;
+    margin-bottom: 30px; // Расстояние между подзаголовком и кнопкой
+    font-family: $color-bgmain;
+  }
+  
+  .join-button {
+    width: 241px;
+    height: 71px;
+    background-color: $color-accent;
+    border-radius: 18px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-family: $font-main;
+    color: $color-bgmain;
+  }
+  

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: $font-main;
+    background-color: $color-bgmain;
+    color: $color-text;
+    font-size: 22px;
+}
+
+a {
+    color: $color-text;
+    transition: all 0.2s ease-in;
+    
+    &:hover {
+        color: $color-accent;
+    }
+
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1230px;
+
+    &-sm {
+        min-height: 395px;
+        padding-left: 100px;
+        
+
+    }
+
+    &-big-es {
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        display: inline-flex;
+    }
+
+    &-es {
+        width: 592px;
+        height: 581px;
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        left: 120px;
+    }
+
+    &-re {
+        
+        width: 1100px;
+        height: 289px;
+        left: 50px;
+        top: 265.61px;
+        justify-content: center; 
+    }
+
+    &-log {
+        width: 1200px;
+        height: 103px;
+        position: relative;
+        justify-content: center;
+    }
+
+
+}
+
+.visually-hidden {
+    /* Contain text within 1px box */
+	height: 1px;
+	overflow: hidden;
+	width: 1px;
+
+	/* Keep the layout */
+	position: absolute;
+
+	/* Remove any visible trace (e.g. background color) */
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%); /* browsers in the future */
+
+	/* Prevent the screen reader to skip spaces between words */
+	white-space: nowrap;
+}
+
+.none {
+    display: none !important;
+}
+

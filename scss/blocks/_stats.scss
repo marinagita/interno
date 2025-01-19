@@ -1,0 +1,52 @@
+.stats {
+  width: 1440px;
+  height: 475px;
+  background-color: $color-bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-frame {
+  width: 1200px;
+  height: 475px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat-item {
+  width: 288px;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.stat-title {
+  font-size: 85px;
+  color: $color-accent;
+  margin: 50px 0 50px 0; // расстояние сверху и снизу
+}
+
+.stat-subtitle {
+  font-size: 22px;
+  color: $color-textAdd;
+}
+
+.stats-frame > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  width: 1px;
+  height: 195px;
+  background-color: $color-accent;
+  margin: 0 20px;  // Убираем отступы между линиями и фреймами
+  margin-top: 50px;
+
+}

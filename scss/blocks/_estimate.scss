@@ -1,0 +1,88 @@
+.estimate {
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    display: inline-flex;
+    margin-bottom: 140px;
+
+
+}
+
+
+.estimate_img {
+    width: 592px;
+    height: 635px;
+    right: 100px;
+    position: absolute;
+
+
+
+}
+
+.estimate_text-title{
+    font-size: 50px;
+    font-family: $font-add;
+    margin-bottom: 42px;
+
+}
+
+.estimate_text-subtitle {
+    font-size: 22px;
+    font-family: $font-main;
+    margin-bottom: 30px;
+
+}
+                      
+
+.estimate_contact {
+   
+    padding-top: 10.20px;
+    padding-bottom: 39.80px;
+    padding-right: 264.69px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    display: inline-flex;
+
+}
+
+.estimate_contact-text-title {
+    font-size: 24px;
+    font-family: $font-main;
+    color: $color-textAdd;
+
+}
+
+.estimate_contact-text-subtitle {
+    font-size: 24px;
+    font-family: $font-main;
+    color: $color-textAdd;
+
+}
+
+.estimate_button {
+    width: 263px;
+    height: 71px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background: #292F36;
+    border-radius: 18px;
+    border: 2px
+
+}
+
+.button:hover {
+    background-color: $color-accent;
+} 
+
+.estimate_button-text {
+    left: 51px;
+    top: 22px;
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    font-family: $font-main;
+    letter-spacing: 0.72px;
+    word-wrap: break-word;
+}

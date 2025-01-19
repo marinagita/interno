@@ -1,0 +1,96 @@
+.reviews {
+    max-width: 1200px;
+    min-height: 675px;
+    background: #F4F0EC;
+    border-radius: 70px;
+    padding-top: 103px;
+    padding-bottom: 121px;
+    padding-left: 51px;
+    padding-right: 51px;
+    display: flex;
+    position: relative;
+    left: 120px;
+
+}
+
+
+.reviews_title {
+    margin-top: 40px;
+    font-size: 45px;
+    font-family: $font-add;
+    text-align: center;
+    top: 103px;
+
+
+
+}
+
+.reviews_cards {
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    display: inline-flex;
+   
+}
+
+.reviews_card1 {
+    border: 2px;
+    max-width: 356px;
+    height: 289px;
+    text-align: center;
+    padding: 47px 42px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+.reviews_card1-item {
+    width: 289px;
+    height: 77px;
+    padding-right: 49.12px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+    
+
+}
+
+.reviews_card1-item-text {
+    align-self: stretch;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: inline-flex
+
+}
+
+.reviews_card-img {
+    
+
+}
+
+.reviews_card-title {
+    font-size: 25px;
+    font-family: $font-add;
+
+}
+
+.reviews_card-sub {
+    font-size: 18px;
+    font-family: $font-main;
+    color: $color-textAdd;
+
+}
+
+.reviews_text {
+    font-size: 20px;
+    font-family: $font-main;
+    color: $color-textAdd;
+
+}
+

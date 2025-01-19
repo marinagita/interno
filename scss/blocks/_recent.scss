@@ -1,0 +1,100 @@
+.recent {
+  width: 1220px;
+  height: 1343.78px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px; // отступ снизу перед следующим блоком
+  padding-left: 200px;
+}
+
+.recent-text {
+  width: 1200px;
+  height: 148px;
+  text-align: center;
+  margin-bottom: 70px;
+  
+}
+
+.recent-title {
+  font-size: 48px;
+  margin-bottom: 21px;
+  font-family: $font-add;
+  color: $color-text;
+  
+}
+
+.recent-subtitle {
+  font-size: 22px;
+  color: $color-textAdd;
+  font-family: $font-main;
+}
+
+.recent-cards {
+  width: 1220px;
+  height: 1110.78px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 19px; // расстояние между карточками
+}
+
+.card {
+  width: 387px;
+  height: 515px;
+  border: 1px solid #E7E7E7;
+  border-radius: 62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.card-image {
+  width: 344.66px;
+  height: 296.39px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.image-text-box {
+    font-family: $font-add;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: $color-textAdd;
+  margin-bottom: 30px;
+}
+
+.card-info p {
+  margin: 0;
+}
+
+.card-icon {
+  width: 52px;
+  height: 52px;
+}
+
+.card-info p, .card-info .card-icon {
+  display: inline-block;
+}
+
+.card-info .card-icon {
+  margin-left: 10px;
+}
+
+.recent-cards > .card:nth-child(1),
+.recent-cards > .card:nth-child(2),
+.recent-cards > .card:nth-child(3) {
+  margin-bottom: 20px; // расстояние между верхними и нижними карточками
+}
+
+

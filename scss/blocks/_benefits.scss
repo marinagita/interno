@@ -1,0 +1,40 @@
+.benefits {
+    padding: 100px 0;
+
+
+}
+
+.benefits_row {
+    
+    display: flex;
+    column-gap: 100px;
+    
+
+
+}
+
+
+.benefits_item {
+    text-align: center;
+
+}
+
+.benefits_item-title {
+    margin-bottom: 17px;
+    font-size: 25px;
+    font-family: $font-add;
+
+}
+
+.benefits_item-subtitle {
+    margin-bottom: 35px;
+    font-size: 22px;
+    font-family: $font-main;
+
+}
+
+.benefits_item-subtitle-add {
+    font-size: 18px;
+    font-family: $font-main;
+
+}
